@@ -1,0 +1,4 @@
+# "Vaporase" in ASM
+This project implements a "Vaporase" game in assembly language, which uses a graphical window drawn using the Canvas library, which draws a window on the screen, allowing you to specify its content. The principle is as follows: the program will provide an array of pixels (one pixel occupies 1 DWORD) and a CALLBACK (a function to be called by the library) which redraws the image. 
+The goal is to discover and correctly colour the parts of the steamer in an n x m matrix.
+Initially, the program will display to the user an empty matrix. After each click on a free cell inside the matrix, it will be coloured blue if a water area has been clicked or red if a ship has been hit. At each step, it will display the number of cells with parts of the ship left undiscovered, the number of successful hits and the number of misses.
